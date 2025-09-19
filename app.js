@@ -52,9 +52,8 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
     .addAnswer(
         [
-            'te comparto los siguientes links de interes sobre el proyecto',
             '👉 Soporte',
-            '👉 Sidige',
+            '👉 Sidige_ERP',
             '👉 OnBase',
         ],
         null,
