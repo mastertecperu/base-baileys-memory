@@ -11,6 +11,10 @@ const flowDocs = addKeyword(['Soporte', 'documentacion', 'documentación']).addA
         '📄 Aquí encontras las documentación recuerda que puedes mejorarla',
         'https://bot-whatsapp.netlify.app/',
         '\n*2* Para siguiente paso.',
+        async (ctx, {provider}) => {
+            await provider.sendText(933491378,'vamos pueee')
+            // el número de telefono se envía en este formato 12345678901@s.whatsapp.net
+        }
     ],
     null,
     null,
